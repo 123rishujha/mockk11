@@ -1,3 +1,24 @@
+# to update/delete/patch/put the book 
+# send the token in headers for example
+
+const getBooks = () => {
+    try{
+        let res = fetch(api_url,{
+            headers:{
+                "Authorization": ${token}
+            }
+        })
+    }
+    catch(err){
+        console.log(err);
+    }
+}
+
+# ----------------------------------------------------
+
+
+
+
 //users
 {
     "name": "alex",
